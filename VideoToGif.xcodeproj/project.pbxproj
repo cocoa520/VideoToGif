@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE31F82F1C3D467300EFBA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F82E1C3D467300EFBA08 /* Foundation.framework */; };
+		EE31F8321C3D467300EFBA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F8311C3D467300EFBA08 /* main.m */; };
+		EE31F8361C3D467300EFBA08 /* VideoToGif.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE31F8351C3D467300EFBA08 /* VideoToGif.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE31F8291C3D467200EFBA08 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				EE31F8361C3D467300EFBA08 /* VideoToGif.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE31F82B1C3D467200EFBA08 /* VideoToGif */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoToGif; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE31F82E1C3D467300EFBA08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE31F8311C3D467300EFBA08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE31F8341C3D467300EFBA08 /* VideoToGif-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoToGif-Prefix.pch"; sourceTree = "<group>"; };
+		EE31F8351C3D467300EFBA08 /* VideoToGif.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VideoToGif.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE31F8281C3D467200EFBA08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F82F1C3D467300EFBA08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE31F8221C3D467200EFBA08 = {
+			isa = PBXGroup;
+			children = (
+				EE31F8301C3D467300EFBA08 /* VideoToGif */,
+				EE31F82D1C3D467200EFBA08 /* Frameworks */,
+				EE31F82C1C3D467200EFBA08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE31F82C1C3D467200EFBA08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F82B1C3D467200EFBA08 /* VideoToGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE31F82D1C3D467200EFBA08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F82E1C3D467300EFBA08 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE31F8301C3D467300EFBA08 /* VideoToGif */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F8311C3D467300EFBA08 /* main.m */,
+				EE31F8351C3D467300EFBA08 /* VideoToGif.1 */,
+				EE31F8331C3D467300EFBA08 /* Supporting Files */,
+			);
+			path = VideoToGif;
+			sourceTree = "<group>";
+		};
+		EE31F8331C3D467300EFBA08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE31F8341C3D467300EFBA08 /* VideoToGif-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE31F82A1C3D467200EFBA08 /* VideoToGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE31F8391C3D467300EFBA08 /* Build configuration list for PBXNativeTarget "VideoToGif" */;
+			buildPhases = (
+				EE31F8271C3D467200EFBA08 /* Sources */,
+				EE31F8281C3D467200EFBA08 /* Frameworks */,
+				EE31F8291C3D467200EFBA08 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoToGif;
+			productName = VideoToGif;
+			productReference = EE31F82B1C3D467200EFBA08 /* VideoToGif */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE31F8231C3D467200EFBA08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = SmartisanMac;
+			};
+			buildConfigurationList = EE31F8261C3D467200EFBA08 /* Build configuration list for PBXProject "VideoToGif" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE31F8221C3D467200EFBA08;
+			productRefGroup = EE31F82C1C3D467200EFBA08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE31F82A1C3D467200EFBA08 /* VideoToGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE31F8271C3D467200EFBA08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE31F8321C3D467300EFBA08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE31F8371C3D467300EFBA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EE31F8381C3D467300EFBA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EE31F83A1C3D467300EFBA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoToGif/VideoToGif-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE31F83B1C3D467300EFBA08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoToGif/VideoToGif-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE31F8261C3D467200EFBA08 /* Build configuration list for PBXProject "VideoToGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31F8371C3D467300EFBA08 /* Debug */,
+				EE31F8381C3D467300EFBA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE31F8391C3D467300EFBA08 /* Build configuration list for PBXNativeTarget "VideoToGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE31F83A1C3D467300EFBA08 /* Debug */,
+				EE31F83B1C3D467300EFBA08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE31F8231C3D467200EFBA08 /* Project object */;
+}
