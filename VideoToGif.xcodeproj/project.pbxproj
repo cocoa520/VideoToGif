@@ -10,6 +10,11 @@
 		EE31F82F1C3D467300EFBA08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F82E1C3D467300EFBA08 /* Foundation.framework */; };
 		EE31F8321C3D467300EFBA08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F8311C3D467300EFBA08 /* main.m */; };
 		EE31F8361C3D467300EFBA08 /* VideoToGif.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = EE31F8351C3D467300EFBA08 /* VideoToGif.1 */; };
+		EE31F83E1C3D469800EFBA08 /* GifGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = EE31F83D1C3D469800EFBA08 /* GifGenerater.m */; };
+		EE31F8401C3D477000EFBA08 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F83F1C3D477000EFBA08 /* QTKit.framework */; };
+		EE31F8421C3D478900EFBA08 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F8411C3D478900EFBA08 /* CoreMedia.framework */; };
+		EE31F8441C3D478F00EFBA08 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F8431C3D478F00EFBA08 /* ImageIO.framework */; };
+		EE31F8481C3D47B400EFBA08 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE31F8471C3D47B400EFBA08 /* ApplicationServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,13 @@
 		EE31F8311C3D467300EFBA08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE31F8341C3D467300EFBA08 /* VideoToGif-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoToGif-Prefix.pch"; sourceTree = "<group>"; };
 		EE31F8351C3D467300EFBA08 /* VideoToGif.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = VideoToGif.1; sourceTree = "<group>"; };
+		EE31F83C1C3D469800EFBA08 /* GifGenerater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifGenerater.h; sourceTree = "<group>"; };
+		EE31F83D1C3D469800EFBA08 /* GifGenerater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifGenerater.m; sourceTree = "<group>"; };
+		EE31F83F1C3D477000EFBA08 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		EE31F8411C3D478900EFBA08 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE31F8431C3D478F00EFBA08 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EE31F8451C3D47A200EFBA08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE31F8471C3D47B400EFBA08 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE31F8481C3D47B400EFBA08 /* ApplicationServices.framework in Frameworks */,
+				EE31F8441C3D478F00EFBA08 /* ImageIO.framework in Frameworks */,
+				EE31F8421C3D478900EFBA08 /* CoreMedia.framework in Frameworks */,
+				EE31F8401C3D477000EFBA08 /* QTKit.framework in Frameworks */,
 				EE31F82F1C3D467300EFBA08 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +64,11 @@
 		EE31F8221C3D467200EFBA08 = {
 			isa = PBXGroup;
 			children = (
+				EE31F8471C3D47B400EFBA08 /* ApplicationServices.framework */,
+				EE31F8451C3D47A200EFBA08 /* CoreGraphics.framework */,
+				EE31F8431C3D478F00EFBA08 /* ImageIO.framework */,
+				EE31F8411C3D478900EFBA08 /* CoreMedia.framework */,
+				EE31F83F1C3D477000EFBA08 /* QTKit.framework */,
 				EE31F8301C3D467300EFBA08 /* VideoToGif */,
 				EE31F82D1C3D467200EFBA08 /* Frameworks */,
 				EE31F82C1C3D467200EFBA08 /* Products */,
@@ -74,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				EE31F8311C3D467300EFBA08 /* main.m */,
+				EE31F83C1C3D469800EFBA08 /* GifGenerater.h */,
+				EE31F83D1C3D469800EFBA08 /* GifGenerater.m */,
 				EE31F8351C3D467300EFBA08 /* VideoToGif.1 */,
 				EE31F8331C3D467300EFBA08 /* Supporting Files */,
 			);
@@ -140,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE31F8321C3D467300EFBA08 /* main.m in Sources */,
+				EE31F83E1C3D469800EFBA08 /* GifGenerater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +196,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -198,7 +222,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
