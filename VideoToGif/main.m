@@ -14,6 +14,8 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         if (argc < 3) {
             NSLog(@"the param is less.");
+            NSLog(@"the first is video src path.");
+            NSLog(@"the second is gif dst path.");
             return -1;
         }
         

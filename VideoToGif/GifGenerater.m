@@ -7,11 +7,12 @@
 //
 
 #import "GifGenerater.h"
+#import <QTKit/QTKit.h>
 #import <ImageIO/ImageIO.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <CoreServices/CoreServices.h>
 #import <CoreMedia/CoreMedia.h>
-#import <QTKit/QTKit.h>
+
 
 @implementation GifGenerater
 

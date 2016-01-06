@@ -14,4 +14,5 @@
  * @method srcPath 传入视频的路径 desPath 生成Gif的路径
  */
 + (int)generateGIFFromPath:(NSString*)srcPath destPath:(NSString*)desPath;
+
 @end
